@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.header{
+    
+}
+
+nav{
+    height:90px;
+    width:100%;
+    background-color: black;
+
+}
+.logo{
+    position:relative;
+    left:40px;
+    top:15px;
+}
+.logo img{
+    height:30px;
+    width:30px;
+    
+}
+.logo p{
+    display:inline;
+    font-size: 25px;
+    font-weight: bold;
+    color:white;
+    
+
+}
+nav ul{
+    list-style: none;
+    float:right;
+    position:relative;
+    right:40px;
+    
+}
+nav ul li{
+    padding-left:20px;
+    display:inline-block;
+
+}
+nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color:white;
+
+}
+nav ul li a:hover{
+    color:green;
+}
+.pg1{
+    height:700px;
+    width:100%;
+    display:flex;
+    align-content: space-around;
+    justify-content: space-around;
+    background-color:purple;
+}
+.img1{
+   margin-top: 120px;
+}
+.img1 img{
+    height:550px;
+    width:300px;
+}
+.para{
+    margin-right: 20px;
+    display:flex;
+    
+    justify-content: center;
+    flex-direction: column;
+}
+.para h1{
+    font-size: 60px;
+    color:white;
+    
+}
+.btn{
+    margin:30px 10px;
+    height:25px;
+    width:150px;
+    background-color: aliceblue;
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+    padding:15px;
+    border-radius: 25px;
+}
+.btn:hover{
+    height:30px;
+    width:155px;
+}
+.pg2{
+    height:400px;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+}
+.pg2 h2{
+    color:black;
+    font-size: 40px;
+    position:relative;
+    left:570px;
+    
+}
+.icons{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.icon{
+    height:280px;
+    width:300px;
+    border:1 px solid black;
+    display:flex;
+    flex-direction: column;
+    align-content:space-around;
+    justify-content: space-around;
+
+    
+}
+.img2 img{
+    height:100px;
+    width:100px;
+}
+.text{
+    margin:10px;
+}
+.text p{
+    padding:8px 0px;
+}
+.pg3{
+    background-color: purple;
+    height:300px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+}
+.heading h4{
+    font-size: 65px;
+    color:white;
+    
+
+}
+.pg4{
+    min-height:500px;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    padding:10px;
+}
+.pg4 h4{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    
+    
+}
+.questions{
+    margin:10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+
+}
+.q-box{
+    height:60px;
+    width:850px;
+    font-size: 20px;
+    font-weight: bold;
+    padding:8px 10px;
+    border: 1px solid rgb(205, 199, 199);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin:1px;
+    
+}
+.q-box:hover{
+    text-decoration:underline;
+    background-color: rgb(235, 234, 234);
+}
+#last-line{
+    font-size: 18px;
+}
+#highlight{
+    color:green;
+}
+.pg5{
+    min-height:500px;
+    width:100%;
+    background-color: black;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.pg5 .logo{
+    margin-top:35px;
+}
+.footer-div2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+.div1{
+    display:flex;
+    margin:35px;
+    
+}
+.div1 ul{
+    list-style: none;
+}
+.div ul:hover{
+    cursor:grab;
+}
+.div1 ul li{
+    font-size: 18px;
+    margin:15px;
+    color:white;
+    font-weight: bold;
+}
+.div1 ul li:nth-of-type(1){
+    margin:24px 0px;
+    color:grey;
+    font-weight: bold;
+}
+.div1 ul li:hover{
+    color:green;
+    
+}
+.footer-div3{
+    margin-top: 35px;
+    height:60px;
+    width:150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-self: flex-start;
+}
+.app-icon{
+    height:35px;
+    width:35px;
+    border-radius: 50%;
+    background-color: rgb(247, 247, 247);
+    padding:5px ;
+}
+.app-icon img{
+    height:30px;
+    width:30px;
+}
+.app-icon:hover{
+    background-color:darkgrey;
+    cursor:grab;
+}
